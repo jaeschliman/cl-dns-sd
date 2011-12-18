@@ -1,0 +1,19 @@
+* Synchronous versions of operations.
+
+ This may make more sense for some (publishing) than for others
+(browsing).  E.g, PUBLISH-SYNC could signal errors directly.
+BROWSE-SYNC could take a timeout argument.  The advantage here would
+be that it would make these operations slightly easier to use.
+
+* Windows support.
+
+* Examples.
+
+I really want to include some neat examples.  Crazy CLiki integration
+(for use at ILCs?), distcc for Lisp, etc.
+
+* Threading.
+
+It might be nice to at least describe how to use
+PROCESS-DNS-SD-EVENTS, but better might be to actually set up an event
+handling thread.  Or at least offer the option.

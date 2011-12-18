@@ -1,0 +1,63 @@
+DNS-SD
+======
+
+A Common Lisp interface to Apple's open source implementation of the
+DNS Service Discovery protocol [http://www.dns-sd.org].
+
+This library is basically a clone of John Wiseman's CL-ZEROCONF using
+CFFI instead of UFFI, and with the smaller scope of handling the
+DNS-SD protocol exclusively (which is the only protocol CL-ZEROCONF
+handles for the moment anyway).
+
+
+License
+-------
+
+See COPYING document.
+
+
+Tested platforms
+----------------
+
+* GNU/Linux 2.6 (Gentoo, CentOS, Debian) | x86 | SBCL
+* MacOS X 10.4, 10.5 | PPC32, PPC64 | SBCL, OpenMCL
+
+
+Dependencies
+------------
+
+* The Common Foreign Function Interface (CFFI)
+  See http://common-lisp.net/project/cffi/
+
+* Apple's mDNSResponder or compatible replacement
+  It is bundled with Mac OS X, and ported to GNU/Linux and Microsoft Windows.
+  See http://developer.apple.com/opensource/internet/bonjour.html
+
+  As an alternative, Avahi's compatibility library can be used on
+  GNU/Linux, FreeBSD, NetBSD, and Solaris. See http://avahi.org/
+
+
+Distribution
+------------
+
+Subversion is used for source code management.
+The current version of the library can be obtained by executing:
+
+svn checkout http://cl-dns-sd.googlecode.com/svn/trunk/ cl-dns-sd-read-only
+
+
+Use
+---
+
+Load (and optionally test) the ASDF package in your Lisp
+environment:
+
+(asdf:oos 'asdf:load-op 'dns-sd)
+(asdf:oos 'asdf:test-op 'dns-sd)
+
+
+Additional documentation
+------------------------
+
+See
+http://developer.apple.com/documentation/Networking/Conceptual/dns_discovery_api/Introduction.html

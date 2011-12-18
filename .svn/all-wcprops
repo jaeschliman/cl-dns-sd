@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/svn/!svn/ver/4/trunk
+END
+STATUS
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/4/trunk/STATUS
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/4/trunk/AUTHORS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/4/trunk/TODO
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/COPYING
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/4/trunk/README
+END
+dns-sd.asd
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/dns-sd.asd
+END
+dns-sd-tests.asd
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/dns-sd-tests.asd
+END

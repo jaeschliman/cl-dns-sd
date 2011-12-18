@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/2/trunk/tests
+END
+testsuite.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/tests/testsuite.lisp
+END
+packages.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/tests/packages.lisp
+END
+basic.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/tests/basic.lisp
+END

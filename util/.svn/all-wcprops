@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/2/trunk/util
+END
+setup.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/util/setup.lisp
+END
+session.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/util/session.lisp
+END

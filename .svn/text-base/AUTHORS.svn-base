@@ -1,0 +1,8 @@
+
+			Authors of DNS-SD
+
+DNS-SD is based on code originally developed by
+John Wiseman <jjwiseman@yahoo.com>.
+
+A port to CFFI and a few adaptations were made later on by
+Sebastián González <s.gonzalez@uclouvain.be>

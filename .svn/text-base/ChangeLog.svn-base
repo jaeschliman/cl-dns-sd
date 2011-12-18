@@ -1,0 +1,11 @@
+2008-02-08  Sebastián González  <s.gonzalez@uclouvain.be>
+
+	* First release of DNS-SD
+	  The major changes with respect to CL-ZEROCONF are:
+	  - Use of CFFI instead of UFFI.
+	  - Use of S-SYSDEPS when possible, instead of custom-made sysdeps.
+	  - Organisation of code in subdirectories.
+
+Copyright 2007-2008 Université catholique de Louvain
+Copying and distribution of this file, with or without modification, are
+permitted provided the copyright notice and this notice are preserved.
