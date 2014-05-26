@@ -82,13 +82,13 @@
 
 ;; We need this in order to do the (ccl::syscall os::select ...) stuff.
 #+openmcl
-(progn
   (eval-when (:load-toplevel :compile-toplevel)
     (require #+linuxppc-target 'linux-syscalls
 	     #+darwinppc-target 'darwinppc-syscalls
              #+darwinx8664-target 'darwinx8664-syscalls
-             #+darwinx8632-target 'darwinx8632-syscalls
-	     ))
+             #+darwinx8632-target 'darwinx8632-syscalls))
+#+openmcl
+(progn
 
   ;; The OpenMCL implementation uses select(2).  This code is based on
   ;; the CCL::FD-INPUT-AVAILABLE-P function that's internal to OpenMCL
