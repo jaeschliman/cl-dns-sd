@@ -4,8 +4,8 @@
 (defpackage #:cl-dns-sd-system (:use #:asdf #:cl))
 (in-package #:cl-dns-sd-system)
 
-(defsystem dns-sd-tests
-  :depends-on (dns-sd fiveam)
+(defsystem :cl-dns-sd-tests
+  :depends-on (:cl-dns-sd :fiveam)
   :components
   ((:module "tests"
     :serial t

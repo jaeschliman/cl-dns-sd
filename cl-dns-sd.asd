@@ -1,16 +1,16 @@
-#| DNS-SD, a Common Lisp library for Zeroconf service discovery. |#
+#| CL-DNS-SD, a Common Lisp library for Zeroconf service discovery. |#
 
 (in-package #:cl-user)
 (defpackage #:cl-dns-sd-system (:use #:asdf #:cl))
 (in-package #:cl-dns-sd-system)
 
-(defsystem dns-sd
-  :name "DNS-SD"
+(defsystem :cl-dns-sd
+  :name "CL-DNS-SD"
   :author "John Wiseman <jjwiseman@yahoo.com>"
   :maintainer "Sebastián González <s.gonzalez@uclouvain.be>"
-  :version "2008-02"
+  :version "2008-02/jaeschliman"
   :licence "MIT"
-  :depends-on (cffi s-sysdeps)
+  :depends-on (:cffi :s-sysdeps)
   :components
   ((:module "src"
     :serial t
